@@ -1,10 +1,9 @@
 .nav{
     padding-left:30vw;
     padding-top:1vw;
-    padding-bottom:1vw;
     font-size:2vw;
-    color: rgb(153, 50, 204);
-    background-color: aqua;
+    /* color: rgb(153, 50, 204); */
+    /* background-color: aqua; */
 }
 
 
@@ -18,7 +17,17 @@ p{
 
 .main{
 
-    background-color: cadetblue;
-    padding-top:4vw;
+    /* background-color: cadetblue; */
+    /* padding-top:4vw; */
     padding-bottom:4vw;
+}
+
+img[src="Images/salad.jpg"]{
+
+    width:20vw;
+}
+
+img[src="Images/dosa-set.jpg"]{
+
+    width:20vw;
 }
