@@ -1,0 +1,23 @@
+.nav{
+    padding-left:30vw;
+    padding-top:1vw;
+    padding-bottom:1vw;
+    font-size:2vw;
+    color: rgb(153, 50, 204);
+    background-color: aqua;
+}
+
+p{
+
+    background-color: darkorange;
+    color: darkorange;
+    height: 4vw;
+    padding-top:2vw;
+}
+
+.main{
+
+    background-color: cadetblue;
+    padding-top:4vw;
+    padding-bottom:4vw;
+}
