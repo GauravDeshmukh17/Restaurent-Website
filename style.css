@@ -1,26 +1,70 @@
-.nav{
+.navbar{
 
-    padding-left:30vw;
-    font-size:2vw;
+    display: flex;
+    font-weight: bolder;
+    font-size: 2vw;
+    margin-block-end:0%;
+    padding-inline-start:0.4vw;
+    margin-block-start:0%;
+    font-family: 'Monoton', cursive;
+    background-color: black;
+    color: white;
+    padding-top:0.5vw;
+    padding-bottom:0.7vw;
+    border-radius: 1.5vw;
+}
+
+li{
+
+    margin-right:2vw;
+    list-style: none;
 }
 
 .nav>h1{
 
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-block-start:1vw;
+    font-size:4.5vw;
+    font-family: 'Monoton', cursive;
+    text-align: center;
+    padding-top: 12vw;
 }
 
-p{
+a{
 
-    background-color: darkorange;
-    color: darkorange;
-    height: 4vw;
-    padding-top:2vw;
-    font-size:1.38vw;
+    text-decoration: none;
 }
 
-.main{
+a:link,a:visited{
 
-    padding-bottom:4vw;
+    color: white;
+}
+
+a:hover{
+
+    color: aqua;
+}
+
+h2{
+
+    font-family: 'Monoton', cursive;
+    text-align: center;
+    font-size: 1.5vw;
+}
+
+h1,h2{
+
+    color: white;
+}
+
+.nav{
+
+    background-image: url(Images/banner-2.jpg);
+    height: 70vh;
+    border-radius: 1.5vw;
+    margin-bottom: 3vw;
+    opacity:0.95;
+    background-size: 100vw;
+
 }
 
 img[src="Images/salad.jpg"]{
@@ -33,8 +77,13 @@ img[src="Images/dosa-set.jpg"]{
     width:20vw;
 }
 
-img[src="Images/food.jpg"]{
+img[src="Images/cake.jpg"]{
 
-    width:70vw;
-    height:80vh;
+    width: 20vw;
+    padding-left:3vw;
+}
+
+a>img:hover{
+    transform: scale(1.5);
+    margin-left:5vw;
 }
