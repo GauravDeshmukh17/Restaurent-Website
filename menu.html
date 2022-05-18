@@ -36,6 +36,43 @@
 
             list-style: none;
         }
+
+        img[src="Images/idali.jpg"]{
+
+            width: 12vw;
+        }
+
+        .dish{
+
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .dish1{
+
+            padding-top:2vw;
+        }
+
+        .dish2,.dish1{
+
+            text-align: center;
+        }
+
+        img[src="Images/idaliwada.jpg"]{
+
+            width:14vw;
+        }
+
+        .b1{
+
+            margin-left: 1vw;
+        }
+
+        button{
+
+            font-size: 1.3vw;
+            font-family: cursive;
+        }
     </style>
 
 </head>
@@ -45,8 +82,30 @@
         <div id="menu1">
             <h3>SOUTH INDIAN</h3>
             <ul class="south">
-                <li>Idali</li>
-                <li>Idali Wada</li>
+                <!-- <li>Idali</li> -->
+                <li class="dish">
+                    <ul class="dish1">
+                        <li>Idali</li>
+                        <li>50 Rs</li>
+                    </ul>
+                    <ul class="dish2">
+                        <li><img src="Images/idali.jpg" alt=""></li>
+                        <button>Order</button>
+                    </ul>
+                </li>
+                <hr>
+                <!-- <li>Idali Wada</li> -->
+                <li class="dish">
+                    <ul class="dish1">
+                        <li>Idali Wada</li>
+                        <li>70 Rs</li>
+                    </ul>
+                    <ul class="dish2">
+                        <li><img src="Images/idaliwada.jpg" alt=""></li>
+                        <button class="b1">Order</button>
+                    </ul>
+                </li>
+                <hr>
                 <li>Medhu Vada</li>
                 <li>Onion Uttappa</li>
                 <li>Onion Cheese Uttapa</li>
@@ -98,7 +157,7 @@
                 <li>Panner Masala</li>
                 <li>Paneer Kofta</li>
                 <li>Paneer Matar Masala</li>
-                <li>Panner Tkka</li>
+                <li>Panner Tikka</li>
                 <li>Shahi Paneer</li>
                 <li>Paneer Toofani</li>
                 <li>Panner Bhurji</li>
