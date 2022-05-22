@@ -158,7 +158,7 @@ img[src="Images/sandwich1.jpg"]{
     padding-left:3.5vw;
 }
 
-a>img:hover{
+.image a>img:hover{
     transform: scale(1.5);
     margin-left:5vw;
 }
@@ -181,4 +181,75 @@ a>img:hover{
 
     padding-inline-start:2vw;
     width: 20vw;
+}
+
+.footer1{ 
+
+    text-align:center;
+}
+
+.footer{
+
+    background-color: black;
+    color: white;
+    padding-top:0.1vw;
+    padding-bottom: 0.1vw;
+    font-family:'Monoton', cursive; 
+    font-size:1.5vw;
+}
+
+.footer2{
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer2 li a:hover{
+
+    color: wheat;
+}
+
+a:link{
+
+    color: white;
+}
+
+img[src="Images/facebook.png"]{
+
+    width:7vw;
+}
+
+img[src="Images/instagram.jpg"]{
+
+    width:10vw;
+}
+
+img[src="Images/twitter.png"]{
+
+    width:8vw;
+}
+
+img[src="Images/github.png"]{
+
+    width: 10vw;
+}
+
+.icons{
+
+    display: flex;
+}
+
+.github{
+
+    margin-top:0.5vw;
+}
+
+.icons a>img:hover{
+
+    transform: scale(1.2);
+}
+
+.contact>li{
+
+    margin-top: 1vw;
 }
