@@ -84,7 +84,7 @@ a:hover{
 
 .food1 a:hover{
 
-    color: cadetblue;
+    color: purple;
 }
 /* h2{
 
@@ -167,14 +167,13 @@ img[src="Images/sandwich1.jpg"]{
 
     font-family: 'Monoton', cursive;
     font-weight: 600;
-    font-size:1.5vw;
+    font-size:2.3vw;
     margin-left: 1vw;
 }
 
 #menu li{
 
     margin-top:1vw;
-    
 }
 
 .food1{
@@ -252,4 +251,17 @@ img[src="Images/github.png"]{
 .contact>li{
 
     margin-top: 1vw;
+}
+
+.food1 a{
+
+    color: black;
+}
+
+.image h3{
+
+    font-family: 'Monoton', cursive;
+    font-size: 2.5vw;
+    font-weight: bolder;
+    text-align: center;
 }
