@@ -137,25 +137,33 @@ img[src="Images/banner-2.jpg"]{
 img[src="Images/salad.jpg"]{
 
     width:15vw;
+    margin-left:3vw;
 }
 
 img[src="Images/dosa-set.jpg"]{
 
     margin-top:3vw;
     width:15vw;
-    margin-left:2vw;
+    margin-left:3vw;
 }
 
 img[src="Images/cake.jpg"]{
 
     width:15vw;
-    padding-left:3vw;
+    padding-left:4vw;
 }
 
 img[src="Images/sandwich1.jpg"]{
 
     width:13vw;
-    padding-left:3.5vw;
+    padding-left:4.5vw;
+}
+
+img[src="Images/thali.jpg"]{
+
+    width: 17vw;
+    margin-left:3vw;
+    margin-top: 1.5vw;
 }
 
 .image a>img:hover{
@@ -265,3 +273,10 @@ img[src="Images/github.png"]{
     font-weight: bolder;
     text-align: center;
 }
+
+.contact p{
+
+    font-size:2.1vw;
+    margin-block-start: 0%;
+}
+
